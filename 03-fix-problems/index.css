@@ -1,0 +1,33 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: cornsilk;
+    font-family: Arial;
+}
+
+h1 {
+    color: palevioletred;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 13px;
+}
+
+.article {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    inline-size: min-content;
+}
+
+.figure__image {
+    margin: 0;
+}
+

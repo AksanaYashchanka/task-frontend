@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cantarell;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: beige;
+}
+
+.site-header {
+    position:absolute;
+    margin-bottom: 500px;
+    text-align: center;
+  }
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: white;
+    margin: .5rem;
+    border-radius: 10px;  
+}
+
+.card-image {
+    width: 100%;
+    background: url("image/orange.jpg ");
+    color: transparent;
+    height: 40%;
+    border-radius: 10px;  
+}
+
+.card-desc {
+    margin: 20px;
+ }
+
+.card-desc h1 {
+    font-size: 20px;
+}
+
+.card-desc h1 ~ p {
+    margin-top: 10px;
+}
+
+.card-desc {
+    height: 60%;
+  }
+
+.card-text {
+    height: 60%;
+  }
+
+.button {
+    width: 80%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.button.default {
+    background: white;
+    color: green;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.button.default:hover {
+    background: green;
+    color: white;
+}
+
+.button.disabled {           
+    background-color: dimgrey; 
+    color: white;
+             }   
+.button.active {            
+    background-color: darkgreen; 
+    color: white;
+}  
+
+.card-button {
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.card-button.new {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: orchid;
+  }
+
+.card-button.last {
+    margin-top: 10px;
+    margin-left: 80px;
+    background-color: orange;
+}
+
